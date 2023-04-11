@@ -1,0 +1,299 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------------- CONTAINER -------------*/
+
+.container{
+    background-color: rgba(93, 93, 93, 0.293);
+    width: 1200px;  
+    height: 900px;
+    margin: 20px auto;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.68);
+    -moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.68);
+}
+
+body{
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+/*-------------- BASLIK -------------*/
+
+.baslik{
+    text-align: center;
+    font-size: large;
+}
+
+/*-------------- ICERIK -------------*/
+
+.content-box {
+    margin-top: 20px;
+    padding: 1px;
+    width: 30%;
+    float: left;
+}
+.content-inner p{
+    height: 5px;
+    margin-top: 10px;
+    margin-left: 110px;
+    font-size: 20px;
+}
+.content img{
+    margin-left: auto;
+    width: 250px;
+    height: 300px;
+}
+#cupcake1{
+    width: 70px;
+    height: 40px;
+    margin-left: 287px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+#cupcake2{
+    width: 70px;
+    height: 40px;
+    margin-left: 287px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+#cupcake3{
+    width: 70px;
+    height: 40px;
+    margin-left: 287px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.content-inner span{
+    color: rgb(82, 82, 82);
+    margin-left: 287px;
+    font-style: italic;
+}
+
+/*-------------- BORDER -------------*/
+
+.border{
+    width: 1000px;
+    margin: auto;
+    padding-top: 60px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+/*-------------- FORMS -------------*/
+
+
+
+form{
+    height: 20px;
+}
+.content{
+    width: 1200px;  
+    height: 900px;
+}
+.content-body{
+    width: 1200px;  
+    height: 900px;
+}
+.content-inner form h1{
+    font-weight: normal;
+    margin-left: 100px;
+    font-size: large;
+}
+.content-inner sup{
+    color: red;
+}
+
+form{
+    width: 100%;
+}
+
+#First{
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+}
+
+#name{
+    font-weight: normal;
+    font-size: large;
+    position: relative;
+    left: 100px;
+}
+#NameForm{
+    width: 200px ;
+    height: 40px;
+    left: 100px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    position: relative;
+}
+#Last{
+    color: gray;
+    font-style: italic;
+    position: relative;
+    top: -68px;
+    left: 303px;
+    font-size: 20px;
+}
+#LastNameForm{
+    width: 200px ;
+    height: 40px;
+    left: 301px;
+    top: -70px;
+    line-height: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: relative;
+}
+#EMail{
+    font-weight: normal;
+    font-size: large;
+    position: relative;
+    left: 700px;
+    top: -165px;
+}
+#EMailForm{
+    width: 400px ;
+    height: 40px;
+    left: 700px;
+    top: -165px;
+    line-height: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: relative;
+}
+#Adress{
+    font-weight: normal;
+    font-size: large;
+    position: relative;
+    top: -130px;
+    left: 100px;
+}
+#Street{
+    color: gray;
+    font-style: italic;
+    position: relative;
+    font-size: 20px;
+    top: -130px;
+    left: 100px;
+}
+#AdressForm{
+    width: 1000px ;
+    height: 40px;
+    left: 100px;
+    top: -130px;
+    line-height: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: relative;
+}
+#CityForm{
+    width: 400px ;
+    height: 40px;
+    left: 100px;
+    top: -130px;
+    line-height: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: relative;
+}
+#State{
+    color: gray;
+    font-style: italic;
+    position: relative;
+    font-size: 20px;
+    top: -198px;
+    left: 700px;
+}
+#StateForm{
+    width: 400px ;
+    height: 40px;
+    left: 700px;
+    top: -200px;
+    line-height: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: relative;
+}
+#PostalForm{
+    width: 400px ;
+    height: 40px;
+    left: 100px;
+    top: -198px;
+    line-height: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: relative;
+}
+#Postal{
+    color: gray;
+    font-style: italic;
+    position: relative;
+    top: -198px;
+    font-size: 20px;
+    left: 100px;
+}
+#CountryForm{
+    width: 400px ;
+    height: 40px;
+    left: 700px;
+    top: -269px;
+    line-height: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: relative;
+}
+#Country{
+    color: gray;
+    font-style: italic;
+    position: relative;
+    top: -262px;
+    font-size: 20px;
+    left: 700px;
+}
+
+#TotalForm{
+    width: 400px ;
+    height: 60px;
+    left: 100px;
+    top: -260px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: relative;
+    background-color: rgba(70, 70, 70, 0.38);
+}
+
+#TotalText{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -320px;
+    font-weight: normal;
+    left: 120px;
+}
+
+#total{
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-weight: normal;
+    top: -365px;
+    left: 400px;
+}
+
+#OrderNowForm{
+    width: 190px ;
+    height: 60px;
+    left: 910px;
+    top: -425px;
+    position: relative;
+    background-color: rgb(239, 118, 118);
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.7);
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.7);
+    border-color: rgb(185, 98, 98);
+}

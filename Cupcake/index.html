@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">   
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <div class="baslik">
+        <h1>Order Our Cupcakes</h1>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="content-body">
+                <div class="content-box">
+                    <div class="content-inner">
+                        <img src="img/cake3.avif">
+                        <p>Larry Cherry<br>Cupcake</p>
+                        <form>
+                            <input type="number" id="cupcake1" min="1">
+                            <span>Quantity</span>
+                        </form>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="content-inner">
+                        <img src="img/photo-1603532648955-039310d9ed75.avif">
+                        <p>Milli Vanilli<br>Cupcake</p>
+                        <form>
+                            <input type="number" id="cupcake2" min="1">
+                            <span>Quantity</span>
+                        </form>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="content-inner">
+                        <img src="img/cake2.avif">
+                        <p>San Pinketine<br>Cupcake</p>
+                        <form>
+                            <input type="number" id="cupcake3" min="1">
+                            <span>Quantity</span>
+                        </form>
+                        <br>
+                    </div>
+                    <br>
+                </div>
+                <div class="border"></div>
+                <div class="content-box">
+                    <div class="content-inner">
+                        <div>  
+                                <h1 id = "name">Name<sup>*</sup></h1>
+                                <input type="text" id="NameForm" value="">
+                                <h1 id ="First">First</h1>
+                                <input type="text" id="LastNameForm" value="">
+                                <h1 id ="Last">Last</h1>
+                                <h1 id="EMail">Email<sup>*</sup></h1>
+                                <input type="text" id="EMailForm" value="">
+                                <h1 id="Adress">Adress<sup>*</sup></h1>
+                                <input type="text" id="AdressForm" value="">
+                                <h1 id ="Street">Street Adress</h1>
+                                <input type="text" id="CityForm" value="">
+                                <h1 id ="Street">City</h1>
+                                <input type="text" id="StateForm" value="">
+                                <h1 id ="State">State / Province / Region</h1>
+                                <input type="text" id="PostalForm" min="1">
+                                <h1 id ="Postal">Postal / Zip Code</h1>
+                                <input type="number" id="CountryForm" value="">
+                                <h1 id ="Country">Country / Region</h1>
+                                <input type="button" id="TotalForm">
+                                <h1 id = "TotalText">Total</h1>
+                                <h1 id = "total">0tl</h1>
+                                <button id="OrderNowForm" onclick="kontrolEt()">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    
+</html>
